@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 146px;
+}
+/* nav .navbar-brand img{
+    
+} */
+
+nav ul li a{
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    padding: 20px  30px;
+    border-radius: 16px;
+    border:none;
+    background: #BD6260;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.btn-primary:hover{
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    padding: 20px  30px;
+    border-radius: 16px;
+    border:none;
+    background: #BD6260;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+#intro-section{
+    padding: 50px 0px;
+}
+#intro-section h1{
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 67px;
+    color: #000;
+}
+#intro-section h1 span{
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 67px;
+    color: #BD6260;
+}
+#intro-section .p1{
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 39px;
+    
+}
+
+#intro-section .p2{
+    font-family: DM Sans;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+}
+#intro-section .p3{
+    font-family: DM Sans;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+#hero-image{
+    background: url('../img/Screenshot\ 2024-08-23\ 193742.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 500px;
+    overlay: #000;
+    opacity: 0.7 #000;
+}
+
+#technology{
+    height: 450px;
+    background-color: #BD6260;
+    padding-top:50px ;
+    text-align: center;
+    margin-bottom: 350px;
+}
+#technology h2{
+    font-family: Manrope;
+    font-size: 57px;
+    line-height: 67px;
+    font-weight: 600;
+    color: #fff;
+}
+#technology p{
+    font-family: DM Sans;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+}
+#technology .video{
+    background-image: url('../img/6c00ed5db1e7a73cf7ae4bd70ea6962e\ \(1\).png');
+    
+    height: 551px;
+    border-radius: 16px;
+    z-index: 0;
+}
+#technology svg{
+    height: 64px;
+    width: 64px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 100px;
+    margin-top: 250px;
+    z-index: 1;
+}
+#gestion{
+    padding: 20px 0px;
+}
+#gestion .container {
+    background: #F9FAFB;
+    padding: 70px;
+    vertical-align: middle;
+}
+#gestion .icon{
+    background-color: #BD62601A;
+    display: inline-block;
+    padding: 15px;
+    color:rgb(189, 98, 96);
+    border-radius: 100px;
+}
+#gestion h2{
+    font-family: Manrope;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 58px;
+
+}
+
+#gestion p{
+    font-family: Dm Sans;
+    font-size: 16px;
+    line-height: 23px;
+    
+}
+
+#gestion .btn-inverse{
+    background: #000;
+    border-radius: 100px;
+    color: #fff;
+    padding: 8px 20px;
+}
+#clave{
+    background-color: #EFF2FC;
+    padding: 70px 0px;
+}
+
+#clave h2{
+    font-family: Manrope;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 58px;
+}
+
+#clave h4{
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+#clave p{
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+#faqs {
+    background-color: #BD6260;
+    padding: 70px 0px;
+    
+}
+#faqs h2{
+    font-family: Manrope;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 58px;
+    color: #fff;
+}
+#faqs .accordion{
+    width: 880px;
+   padding: 50px;
+   padding-left: 0px;
+}
+
+#faqs .accordion .accordion-header .accordion-button, .accordion-body{
+
+    background: #BD6260;
+    border: none;
+    color: #fff;
+
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+/* Contact Form */
+
+
+#contact-form{
+    padding: 70px 0px;
+    background-color: #F3F6FF;
+}
+#contact-form .details{
+    text-align: center;
+}
+#contact-form .details h2{
+    font-family: Manrope;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 58px;
+}
+#contact-form .details p{
+font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    
+}
+
+#contact-form form{
+font-family: Dm Sans;
+}    
+
+#contact-form form input{
+border: 2px;
+margin-bottom: 22px;
+padding: 10px;
+}  
+#contact-form form textarea{
+    border: 2px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#contact-form form .btn-primary{
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 2px;
+ 
+}
+
+footer{
+    background-color: #BD6260;
+    padding: 70px 0px 50px 0px;
+    font-family: Dm Sans;
+    color: #fff;
+}
+footer .btn-primary{
+    padding: 10px;
+    background-color: #000;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+footer h5{
+    font-size: 16px;
+    font-weight: 500;
+}
+footer p{
+    font-weight: 400;
+    font-size: 14px;
+}
+footer svg{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 414px) {
+    
+    .navbar-toggler{
+        margin-left:300px;
+        margin-top:-100px;
+    }
+    .navbar-collapse{
+        background:#fff;
+        text-align:center;
+        padding:20px;
+    }
+
+    #intro-section{
+        padding: 50px 0px;
+    }
+    #intro-section h1{
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 42px;
+        color: #000;
+    }
+    #intro-section h1 span{
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 42px;
+        color: #BD6260;
+    }
+    #intro-section .p1{
+        font-family: DM Sans;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        
+    }
+    
+    #intro-section .p2{
+        font-family: DM Sans;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #intro-section .p3{
+        font-family: DM Sans;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    
+#technology{
+    height: 450px;
+    background-color: #BD6260;
+    padding-top:50px ;
+    
+    text-align: center;
+    margin-bottom: 150px;
+}
+#technology h2{
+    font-family: Manrope;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #fff;
+}
+#technology p{
+    font-family: DM Sans;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+#technology .video{
+    background-image: url('../img/6c00ed5db1e7a73cf7ae4bd70ea6962e\ \(1\).png');
+    
+    height: 351px;
+    border-radius: 16px;
+    z-index: 0;
+}
+#technology svg{
+    height: 64px;
+    width: 64px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 100px;
+    margin-top: 150px;
+    z-index: 1;
+}
+
+#gestion{
+    padding: 20px 0px;
+}
+#gestion .container {
+    background: #F9FAFB;
+    padding: 30px;
+    margin: 5px;
+    vertical-align: middle;
+}
+#gestion .icon{
+    background-color: #BD62601A;
+    display: inline-block;
+    padding: 15px;
+    color:rgb(189, 98, 96);
+    border-radius: 100px;
+}
+#gestion h2{
+    font-family: Manrope;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 58px;
+
+}
+
+#gestion p{
+    font-family: Dm Sans;
+    font-size: 16px;
+    line-height: 23px;
+    
+}
+
+#gestion .btn-inverse{
+    background: #000;
+    border-radius: 100px;
+    color: #fff;
+    padding: 8px 20px;
+}
+
+
+
+    /*FAQ  */
+    #faqs .accordion{
+        width: 360px;
+       padding:0px;
+       padding-left:0px;
+       margin-left:-62px;
+       
+    }
+    
+    #faqs .accordion .accordion-header .accordion-button, .accordion-body{
+    
+        background: #BD6260;
+        border: none;
+        color: #fff;
+    
+    }
+    
+    .accordion-button:focus{
+        box-shadow: none;
+    }
+    
+    .col-lg-1{
+        display:none;
+    }
+
+}
